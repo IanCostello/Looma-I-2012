@@ -1,0 +1,19 @@
+
+
+
+$ext=substr(strrchr($filename[$i],'.'),1);
+	if($ext == "pdf")
+	{
+		$newsrc="/var/www/Front_End/Resources/Documents/Others";
+		$newfile=$filename[$i];
+	}
+	elseif($ext == "jpg" || $ext == "jpeg" || $ext == "png" || $ext == "gif" || $ext == "tiff" || $ext == "bmp")
+	{
+		$newsrc="/var/www/Front_End/Resources/Documents/Pictures";
+		$newfile=$filename[$i];
+	}
+	elseif($ext == "mp4" || $ext == "webm" || $ext == "ogg")
+	{
+		$newsrc="/var/www/Front_End/Resources/Documents/Videos";
+		$newfile=$filename[$i];
+	}

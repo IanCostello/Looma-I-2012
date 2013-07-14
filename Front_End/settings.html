@@ -1,0 +1,66 @@
+<html>
+<head>
+<title></title>
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Comic Sans MS;
+	color: #FCC110;
+	font-size: 24px;
+	font-weight: bold;
+}
+body {
+	background-color:#091F48;
+}
+-->
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+<body>
+<form name="form_settings" method="_get" action="http://localhost/Front_End/settings.php" target="_self">
+<table name="table_settings" cellpadding="2" cellspacing="2" width="100%" border="0">
+<tr>
+<td width="33.33%" align="left">Calibrate
+<td width="33.34%" align="center">Power-Off
+<td width="33.33%" align="right">Exit
+</tr>
+<tr>
+<td width="33.33%" align="left"><button type="submit" style="width:210;height:200;background-image:url(Resources/calibrate.png); background-position:left; background-repeat:no-repeat;" name="goto" value="calibrate"></button>
+<td width="33.34%" align="center"><button type="submit" style="width:210;height:200;background-image:url(Resources/power.png); background-position:left; background-repeat:no-repeat;" name="goto" value="poweroff"></button>
+<td width="33.33%" align="right"><button type="submit" style="width:210;height:200;background-image:url(Resources/close.png); background-position:left; background-repeat:no-repeat;" name="goto" value="return"></button>
+</tr>
+<tr>
+<td width="33.33%" align="left">Volume-Control
+<td width="33.34%" align="center">
+<td width="33.33%" align="right">Zoom-Control
+</tr>
+
+<tr>
+<td width="33.33%" align="left">
+<table name="table_volume" cellpadding="1" cellspacing="1">
+<tr>
+<td align="left"><button type="submit" style="width:102;height:100;background-image:url(Resources/volumeup.png); background-position:left; background-repeat:no-repeat;" name="goto" value="volumeup"></button>
+<td align="center">Increase
+</tr>
+<tr>
+<td align="left"><button type="submit" style="width:102;height:100;background-image:url(Resources/volumedown.png); background-position:left; background-repeat:no-repeat;" name="goto" value="volumedown"></button>
+<td align="center">Decrease
+</tr>
+</table>
+<td width="33.34%" align="center">
+<td width="33.33%" align="right">
+<table name="table_zoom" cellpadding="1" cellspacing="1">
+<tr>
+<td align="center">In
+<td align="right"><button type="submit" style="width:100;height:100;background-image:url(Resources/zoomin.png); background-position:left; background-repeat:no-repeat;" name="goto" value="zoomin"></button>
+</tr>
+<tr>
+<td align="center">out
+<td align="right"><button type="submit" style="width:100;height:100;background-image:url(Resources/zoomout.png); background-position:left; background-repeat:no-repeat;" name="goto" value="zoomout"></button>
+</tr>
+</table>
+</tr>
+</table>
+</form>
+</body>
+</html>

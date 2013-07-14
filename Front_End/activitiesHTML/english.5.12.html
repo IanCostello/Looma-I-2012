@@ -1,0 +1,69 @@
+<html>
+<head>
+
+<!--	file: english.5.12.html
+	created: 1/5/2013, by Skip for Looma v1.5 and above
+
+	location: activity html pages are named <subject>.<n>.<uu>.html [n=grade, uu=unit#]. 
+	location: activity html pages are stored in Front_End/Resources/Documents/Activities/<subject>/<unit> folder
+-->
+
+
+<script type="text/javascript">
+
+function sel_pics(folderlocation,filename)
+	//arg 'folderlocation' (string) is the subfolder path under Resources/Documents/Activities/, e.g. "Class5/Math/Unit3"
+	//arg 'filename' (string) is filename with filetype, e.g. "SONG-beethovensFifth.mp3"
+{
+form_activity.action="http://localhost/Front_End/fullsizeImage.php";
+form_activity.fileloc.value="Resources/Documents/Activities/" + folderlocation + "/" + filename;
+//NOTE: [skip 1/13] sel_video expects fileloc to be the directory path, sel_pics and sel_audio expect the full file pathname in fileloc
+form_activity.filename.value=filename;
+}
+
+function sel_audio(folderlocation,filename)
+{
+form_activity.action="http://localhost/Front_End/fullsizeAudio.php";
+form_activity.fileloc.value="Resources/Documents/Activities/" + folderlocation + "/" + filename;
+//NOTE: [skip 1/13] sel_video expects fileloc to be the directory path, sel_pics and sel_audio expect the full file pathname in fileloc
+form_activity.filename.value=filename;
+}
+
+function sel_video(folderlocation,filename)
+{
+form_activity.action="http://localhost/Front_End/fullsizeVideo.php";
+form_activity.fileloc.value="Resources/Documents/Activities/" + folderlocation;
+//NOTE: [skip 1/13] sel_video expects fileloc to be the directory path, sel_pics and sel_audio expect the full file pathname in fileloc
+form_activity.filename.value=filename;
+}
+
+</script>
+
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Comic Sans MS;
+	color: #FCC110;
+}
+body {
+	background-color: #091F48;
+}
+-->
+</style>
+
+</head>
+
+<body>
+
+<form name="form_activity" action="" method="get" target="_self">
+<input type="hidden" name="fileloc" value="">
+<input type="hidden" name="filename" value="">
+
+<button type="submit" name="goto" onClick="sel_pics('Class5/English/Unit12','PICTURE-Firewood.jpg')" value="" style="width:370;height:40;font: bold 15px Comic Sans MS">
+PICTURE-Firewood
+</button>
+
+
+</form>
+</body>
+</html>

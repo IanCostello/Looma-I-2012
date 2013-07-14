@@ -1,0 +1,74 @@
+<html>
+<head>
+<title></title>
+<script type="text/javascript">
+
+function video()
+{
+	form_folder.action="http://localhost/Front_End/videoFrame.html";
+}
+function pic()
+{
+	form_folder.action="http://localhost/Front_End/picFrame.html";
+}	
+function other()
+{
+	form_folder.action="http://localhost/Front_End/files.php";
+}
+function book()	
+{
+	form_folder.action="http://localhost/Front_End/libframe.html";
+}
+function whiteboard()
+{
+	form_folder.action="http://localhost/Front_End/whiteboardFrame.html";
+}
+function pd()
+{
+	form_folder.action="http://localhost/Front_End/external.php";
+}
+
+</script>
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Comic Sans MS;
+	color: #FCC110;
+}
+body {
+	background-color:#4B4B4B;
+}
+-->
+</style>
+</head>
+<body topmargin="0" leftmargin="0">
+<form name="form_folder" action="" method="get" target="files">
+<table cellpadding="0" cellspacing="0" width="95%" height="100%" border="0">
+<tr>
+<td width="100%" height="16.67%">
+<button type="submit" value="Videos" style="width:100%;height:100%; background-image:url(Resources/player.png); background-position:center; background-repeat:no-repeat;" onClick="video()"></button>
+</tr>
+<tr>
+<td width="100%" height="16.66%">
+<button type="submit" value="Whiteboardfiles" style="width:100%;height:100%; background-image:url(Resources/whiteboard.png); background-position:center; background-repeat:no-repeat;" onClick="whiteboard()"></button>
+</tr>
+<tr>
+<td width="100%" height="16.67%">
+<button type="submit" value="Pictures" style="width:100%;height:100%; background-image:url(Resources/pics.png); background-position:center; background-repeat:no-repeat;" onClick="pic()"></button>
+</tr>
+<tr>
+<td width="100%" height="16.66%">
+<button type="submit" value="Textbooks" style="width:100%;height:100%; background-image:url(Resources/textbooks.png); background-position:center; background-repeat:no-repeat;" autofocus onClick="book()"></button>
+</tr>
+<tr>
+<td width="100%" height="16.67%">
+<button type="submit" value="Others" style="width:100%;height:100%;background-image:url(Resources/others.png); background-position:center; background-repeat:no-repeat;" onClick="other()"></button>
+</tr>
+<tr>
+<td width="100%" height="16.66%">
+<button type="submit" value="pd" style="width:100%;height:100%; background-image:url(Resources/usb.png); background-position:center; background-repeat:no-repeat;" onClick="pd()"></button>
+</tr>
+</table>
+</form>
+</body>
+</html>

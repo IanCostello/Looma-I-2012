@@ -1,0 +1,143 @@
+echo "<table name='table_textdisplay' cellspacing='1' cellpadding='1'>";
+
+if ($class=="Class2")
+{
+	if($course=="English")
+	{
+		echo "<tr><td>Text-Book<td>Activities</tr>";		
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=005'\">Unit 1</button>";
+		echo "<td><button type='button' name='activity' onClick=\"location='/var/www/Front_End/Resources/E-Paath/index.html'\">Activity 1</button></tr>;"
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit2' onClick=\"location='" . $fullname . "&page=012'\">Unit 2</button>";
+		echo "<td><button type='button' name='activity' onClick=\"location='/var/www/Front_End/Resources/E-Paath/index.html'\">Activity 2</button></tr>;"
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit3' onClick=\"location='" . $fullname . "&page=017'\">" . $entry . "</button>";
+		echo "<td><button type='button' name='activity' onClick=\"location='/var/www/Front_End/Resources/E-Paath/index.html'\">Activity 3</button></tr>;"		
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit4' onClick=\"location='" . $fullname . "&page=024'\">" . $entry . "</button>";
+		echo "<td><button type='button' name='activity' onClick=\"location='/var/www/Front_End/Resources/E-Paath/index.html'\">Activity 4</button></tr>;"
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit5' onClick=\"location='" . $fullname . "&page=030'\">" . $entry . "</button>";
+		echo "<td><button type='button' name='activity' onClick=\"location='/var/www/Front_End/Resources/E-Paath/index.html'\">Activity 5</button></tr>;"
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit6' onClick=\"location='" . $fullname . "&page=037'\">" . $entry . "</button>";
+		echo "<td><button type='button' name='activity' onClick=\"location='/var/www/Front_End/Resources/E-Paath/index.html'\">Activity 6</button></tr>;"
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=043'\">" . $entry . "</button>";
+		echo "<td><button type='button' name='activity' onClick=\"location='/var/www/Front_End/Resources/E-Paath/index.html'\">Activity 1</button></tr>;"
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=050'\">" . $entry . "</button>";
+		echo "<td><button type='button' name='activity' onClick=\"location='/var/www/Front_End/Resources/E-Paath/index.html'\">Activity 1</button></tr>;"
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=055'\">" . $entry . "</button>";
+		echo "<td><button type='button' name='activity' onClick=\"location='/var/www/Front_End/Resources/E-Paath/index.html'\">Activity 1</button></tr>;"
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=060'\">" . $entry . "</button>";
+		echo "<td><button type='button' name='activity' onClick=\"location='/var/www/Front_End/Resources/E-Paath/index.html'\">Activity 1</button></tr>;"
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=066'\">" . $entry . "</button>";
+		echo "<td><button type='button' name='activity' onClick=\"location='/var/www/Front_End/Resources/E-Paath/index.html'\">Activity 1</button></tr>;"
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=071'\">" . $entry . "</button>";
+		echo "<td><button type='button' name='activity' onClick=\"location='/var/www/Front_End/Resources/E-Paath/index.html'\">Activity 1</button></tr>;"			
+	}
+	if($course=="Math")
+	{
+		
+		echo "<tr><td>Text-Book English<td>Text-Book Nepali<td>Activities</tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=006'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=005'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=009'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=012'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=016'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=019'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=021'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=025'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=027'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=032'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=035'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=042'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=046'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=048'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=056'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=059'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=061'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=062'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=065'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=077'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=081'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">" . $entry . "</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=088'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=090'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=093'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=095'\">Unit 1</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=014'\">Unit 1</button>";
+		echo "<td><button type='submit' name='' value=''>Activity 1</button></tr>";
+	}
+	if($course=="Science")
+	{
+		
+	}
+
+}
+if ($class=="Class5")
+{
+	if($course=="English")
+	{
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=004'\">" . $entry . "</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=015'\">" . $entry . "</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=024'\">" . $entry . "</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=034'\">" . $entry . "</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=042'\">" . $entry . "</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=051'\">" . $entry . "</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=061'\">" . $entry . "</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=070'\">" . $entry . "</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=078'\">" . $entry . "</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=086'\">" . $entry . "</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=095'\">" . $entry . "</button>";
+		echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='" . $entry . "' onClick=\"location='" . $fullname . "&page=103'\">" . $entry . "</button>";		
+	}
+	if($course=="Math")
+	{
+		
+	}
+	if($course=="Science")
+	{
+		
+	}
+
+}
+echo "</table>";

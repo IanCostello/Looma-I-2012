@@ -1,0 +1,42 @@
+<html>
+<head>
+<script type="text/javascript">
+function selaudio()
+{
+form_activity.action="http://localhost/Front_End/fullsizeAudio.php";
+form_activity.fileloc.value="Resources/Documents/Activities/SONG-whatcanyoudo.mp3";
+form_activity.filename.value="SONG-whatcanyoudo.mp3";
+}
+function selvideo()
+{
+form_activity.action="http://localhost/Front_End/fullsizeVideo.php";
+form_activity.fileloc.value="Resources/Documents/Videos";
+form_activity.filename.value="VIDEO-actionVerbs.mp4";
+}
+
+</script>
+
+</script>
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Comic Sans MS;
+	color: #FCC110;
+}
+body {
+	background-color: #091F48;
+}
+-->
+</style>
+
+
+</head>
+<body>
+<form name="form_activity" action="" method="get" target="_blank">
+<input type="hidden" name="fileloc" value="">
+<input type="hidden" name="filename" value="">
+<button type="submit" name="goto" onClick="selaudio()" value="newtab" style="width:370;height:40;font: bold 15px Comic Sans MS">SONG-whatcanyoudo</button>
+<button type="submit" name="goto" onClick="selvideo()" value="newtab" style="width:370;height:40;font: bold 15px Comic Sans MS">VIDEO-actionVerbs</button>
+</form>
+</body>
+</html>

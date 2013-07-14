@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<olenepal><activities>
+
+<course gradeID="2" subjectID="maths">	
+	<lesson week="15" tech="karma" order="1">3032019</lesson>
+	<lesson week="6" tech="karma" order="1">3052006</lesson>
+	<lesson week="10" tech="karma" order="1">3082011</lesson>
+	<lesson week="18" tech="karma" order="1">3092022</lesson>
+	<lesson week="1" tech="karma" order="1">3122000</lesson>
+	<lesson week="2" tech="karma" order="1">3122002</lesson>
+	<lesson week="3" tech="karma" order="1">3122003</lesson>
+	<lesson week="4" tech="karma" order="1">3122004</lesson>
+	<lesson week="16" tech="karma" order="1">3122020</lesson>
+</course>
+<course gradeID="2" subjectID="english">
+	<lesson week="5" tech="karma" order="20">3092208</lesson>
+	<lesson week="6" tech="karma" order="1">3092209</lesson>
+	<lesson week="6" tech="karma" order="20">3092210</lesson>
+	<lesson week="9" tech="karma" order="1">3092214</lesson>
+	<lesson week="10" tech="karma" order="2">3092217</lesson>
+	<lesson week="11" tech="karma" order="20">3092219</lesson>
+	<lesson week="16" tech="karma" order="1">3092228</lesson>
+	<lesson week="17" tech="karma" order="1">3092235</lesson>
+	<lesson week="14" tech="karma" order="1">3096205</lesson>
+	<lesson week="15" tech="karma" order="1">3116202</lesson>
+	<lesson week="1" tech="karma" order="20">3122201</lesson>
+	<lesson week="4" tech="karma" order="20">3122206</lesson>
+	<lesson week="8" tech="karma" order="1">3122212</lesson>
+	<lesson week="9" tech="karma" order="20">3122215</lesson>
+	<lesson week="10" tech="karma" order="1">3122216</lesson>
+	<lesson week="11" tech="karma" order="1">3122218</lesson>
+	<lesson week="13" tech="karma" order="1">3122222</lesson>
+	<lesson week="14" tech="karma" order="1">3122224</lesson>
+	<lesson week="17" tech="karma" order="20">3122225</lesson>
+	<lesson week="16" tech="karma" order="20">3122227</lesson>
+	<lesson week="1" tech="karma" order="10">3122231</lesson>
+</course>
+<course gradeID="3" subjectID="english">
+	<lesson week="4" tech="karma" order="2">3093205</lesson>
+	<lesson week="12" tech="karma" order="10">3096210</lesson>
+	<lesson week="9" tech="karma" order="20">3126220</lesson>
+	<lesson week="9" tech="karma" order="10">3126221</lesson>
+</course>
+<course gradeID="4" subjectID="english">
+	<lesson week="1" tech="karma" order="10">3093204</lesson>
+	<lesson week="7" tech="karma" order="20">3096211</lesson>
+</course>
+<course gradeID="6" subjectID="maths">
+	<lesson week="5" tech="karma" order="1">3046009</lesson>
+	<lesson week="10" tech="karma" order="1">3056015</lesson>
+	<lesson week="1" tech="karma" order="1">3066000</lesson>
+	<lesson week="12" tech="karma" order="1">3086019</lesson>
+	<lesson week="4" tech="karma" order="1">3096005</lesson>
+	<lesson week="7" tech="karma" order="1">3096012</lesson>
+	<lesson week="2" tech="karma" order="1">3116007</lesson>
+	<lesson week="11" tech="karma" order="1">3116017</lesson>
+	<lesson week="3" tech="karma" order="1">3126008</lesson>
+	<lesson week="6" tech="karma" order="1">3126011</lesson>
+	<lesson week="8" tech="karma" order="1">3126013</lesson>
+	<lesson week="9" tech="karma" order="1">3126014</lesson>
+	<lesson week="10" tech="karma" order="20">3126016</lesson>
+	<lesson week="14" tech="karma" order="20">3126023</lesson>
+	<lesson week="16" tech="karma" order="1">3126026</lesson>
+</course>
+<course gradeID="6" subjectID="english">
+	<lesson week="1" tech="karma" order="20">3046227</lesson>
+	<lesson week="12" tech="karma" order="10">3096215</lesson>
+	<lesson week="1" tech="karma" order="10">3116223</lesson>
+	<lesson week="2" tech="karma" order="20">3126206</lesson>
+	<lesson week="9" tech="karma" order="10">3126222</lesson>
+</course>
+</activities></olenepal>

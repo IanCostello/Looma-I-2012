@@ -1,0 +1,73 @@
+echo "<tr><td align='center'>Text-Book English<td align='center'>Text-Book Nepali<td align='center'>Activities</tr>";		
+
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=005'\">E-Unit 1</button>";
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname1 . "&page=005'\">N-Unit 1</button>";
+echo "<td><button type='button' name='activity' style='width:370;height:40;font: bold 15px Comic Sans MS' onClick=\"location='location='http://www.pustakalaya.org/external-content/static/epaath/epaath/'\">Activity 1</button></tr>";
+
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=022'\">E-Unit 2</button>";
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname1 . "&page=022'\">N-Unit 2</button>";
+echo "<td><button type='button' name='activity' style='width:370;height:40;font: bold 15px Comic Sans MS' onClick=\"location='location='http://www.pustakalaya.org/external-content/static/epaath/epaath/'\">Activity 2</button></tr>";
+
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=038'\">E-Unit 3</button>";
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname1 . "&page=038'\">N-Unit 3</button>";
+echo "<td><button type='button' name='activity' style='width:370;height:40;font: bold 15px Comic Sans MS' onClick=\"location='http://www.pustakalaya.org/external-content/static/epaath/epaath/'\">Activity 3</button></tr>";
+
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=043'\">E-Unit 4</button>";
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname1 . "&page=042'\">N-Unit 4</button>";
+echo "<td><button type='button' name='activity' style='width:370;height:40;font: bold 15px Comic Sans MS' onClick=\"location='http://www.pustakalaya.org/external-content/static/epaath/epaath/'\">Activity 4</button></tr>";
+
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=048'\">E-Unit 5</button>";
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname1 . "&page=047'\">N-Unit 5</button>";
+echo "<td><button type='button' name='activity' style='width:370;height:40;font: bold 15px Comic Sans MS' onClick=\"location='http://www.pustakalaya.org/external-content/static/epaath/epaath/'\">Activity 5</button></tr>";
+
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=055'\">E-Unit 6</button>";
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname1 . "&page=053'\">N-Unit 6</button>";
+echo "<td><button type='button' name='activity' style='width:370;height:40;font: bold 15px Comic Sans MS' onClick=\"location='http://www.pustakalaya.org/external-content/static/epaath/epaath/'\">Activity 6</button></tr>";
+
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=059'\">E-Unit 7</button>";
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname1 . "&page=057'\">N-Unit 7</button>";
+echo "<td><button type='button' name='activity' style='width:370;height:40;font: bold 15px Comic Sans MS' onClick=\"location='http://www.pustakalaya.org/external-content/static/epaath/epaath/'\">Activity 7</button></tr>";
+
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=063'\">E-Unit 8</button>";
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname1 . "&page=059'\">N-Unit 8</button>";
+echo "<td><button type='button' name='activity' style='width:370;height:40;font: bold 15px Comic Sans MS' onClick=\"location='http://www.pustakalaya.org/external-content/static/epaath/epaath/'\">Activity 8</button></tr>";
+
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=067'\">E-Unit 9</button>";
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname1 . "&page=064'\">N-Unit 9</button>";
+echo "<td><button type='button' name='activity' style='width:370;height:40;font: bold 15px Comic Sans MS' onClick=\"location='http://www.pustakalaya.org/external-content/static/epaath/epaath/'\">Activity 9</button></tr>";
+
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=071'\">E-Unit 10</button>";
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname1 . "&page=066'\">N-Unit 10</button>";
+echo "<td><button type='button' name='activity' style='width:370;height:40;font: bold 15px Comic Sans MS' onClick=\"location='http://www.pustakalaya.org/external-content/static/epaath/epaath/'\">Activity 10</button></tr>";
+
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=076'\">E-Unit 11</button>";
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname1 . "&page=071'\">N-Unit 11</button>";
+echo "<td><button type='button' name='activity' style='width:370;height:40;font: bold 15px Comic Sans MS' onClick=\"location='http://www.pustakalaya.org/external-content/static/epaath/epaath/'\">Activity 11</button></tr>";
+
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=081'\">E-Unit 12</button>";
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname1 . "&page=075'\">N-Unit 12</button>";
+echo "<td><button type='button' name='activity' style='width:370;height:40;font: bold 15px Comic Sans MS' onClick=\"location='http://www.pustakalaya.org/external-content/static/epaath/epaath/'\">Activity 12</button></tr>";
+
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=100'\">E-Unit 13</button>";
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname1 . "&page=092'\">N-Unit 13</button>";
+echo "<td><button type='button' name='activity' style='width:370;height:40;font: bold 15px Comic Sans MS' onClick=\"location='http://www.pustakalaya.org/external-content/static/epaath/epaath/'\">Activity 13</button></tr>";
+
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=106'\">E-Unit 14</button>";
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname1 . "&page=097'\">N-Unit 14</button>";
+echo "<td><button type='button' name='activity' style='width:370;height:40;font: bold 15px Comic Sans MS' onClick=\"location='http://www.pustakalaya.org/external-content/static/epaath/epaath/'\">Activity 14</button></tr>";
+
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=110'\">E-Unit 15</button>";
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname1 . "&page=099'\">N-Unit 15</button>";
+echo "<td><button type='button' name='activity' style='width:370;height:40;font: bold 15px Comic Sans MS' onClick=\"location='http://www.pustakalaya.org/external-content/static/epaath/epaath/'\">Activity 15</button></tr>";
+
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=114'\">E-Unit 16</button>";
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname1 . "&page=103'\">N-Unit 16</button>";
+echo "<td><button type='button' name='activity' style='width:370;height:40;font: bold 15px Comic Sans MS' onClick=\"location='http://www.pustakalaya.org/external-content/static/epaath/epaath/'\">Activity 16</button></tr>";
+
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=122'\">E-Unit 17</button>";
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname1 . "&page=110'\">N-Unit 17</button>";
+echo "<td><button type='button' name='activity' style='width:370;height:40;font: bold 15px Comic Sans MS' onClick=\"location='http://www.pustakalaya.org/external-content/static/epaath/epaath/'\">Activity 17</button></tr>";
+
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname . "&page=124'\">E-Unit 18</button>";
+echo "<tr><td><button type='button' style='width:370;height:40;font: bold 15px Comic Sans MS' name='filedisplay' value='Unit1' onClick=\"location='" . $fullname1 . "&page=112'\">N-Unit 18</button>";
+echo "<td><button type='button' name='activity' style='width:370;height:40;font: bold 15px Comic Sans MS' onClick=\"location='http://www.pustakalaya.org/external-content/static/epaath/epaath/'\">Activity 18</button></tr>";
