@@ -1,3 +1,8 @@
+#File: SerialReceiver.py
+#Author: Peter Williams, Roja Nunna
+#Class: ENGS89
+#Date: Novemeber 6, 2011
+#Modified: Feb 2013, Peter Williams - implement optional splashscreen
 __author__="peter"
 __date__ ="$Jun 29, 2012 3:38:00 PM$"
 
@@ -19,7 +24,7 @@ class SerialReceiver(threading.Thread):
 #        print "NO MOUSE"
 #        return
 
-        print "Initializing..."
+        print "SerialReceiver.py - Initializing..."
         self.path = os.getcwd()
         self.calib = False
         self.parent = parent
@@ -63,11 +68,15 @@ class SerialReceiver(threading.Thread):
 #        Options
         self.active = None
         self.reverseX = None
+        self.reverseY = None
 #
         self.parseConfig()
         
         if self.active == True:
             self.ser = serial.Serial('/dev/USBSerial', 115200)
+	#Skip 2013 02 21
+	else:
+	    print "SerialReceiver.py - Wand NOT active"
 
         self.xScale = float(self.wiiRes[0])/self.screenSize[0]
         self.yScale = float(self.wiiRes[1])/self.screenSize[1]
@@ -92,8 +101,9 @@ class SerialReceiver(threading.Thread):
         self.mouseUpdateRate = parser.getint('ControlParams', 'mouseUpdateRate')
         self.noActivityLimit = parser.getint('ControlParams', 'noActivityLimit')
         self.delay = parser.getfloat('ControlParams', 'delay')
-        self.active = parser.getboolean('Options', 'active')
-        self.reverseX = parser.getboolean('Options', 'reverseX')
+        self.active = parser.getboolean('FPGAOptions', 'active')
+        self.reverseX = parser.getboolean('FPGAOptions', 'reversex')
+        self.reverseY = parser.getboolean('FPGAOptions', 'reversey')
         self.wiiRes = (parser.getint('WResolution', 'x'), parser.getint('WResolution', 'y'))
         self.calibPulses = parser.getint('Calibration', 'calibPulses')
             
@@ -135,17 +145,34 @@ class SerialReceiver(threading.Thread):
             if (x < xMin) or (x > xMax) or (y < yMin) or (y > yMax):
                 return None, None #FIX THIS
             else:
-                if self.reverseX == False:
-                    return int(round((x-xMin)/(self.xScale/self.xAccel), 0)), int(round((y-yMin)/(self.yScale/self.yAccel), 0))
-                else:
-                    return int(self.screenSize[0] - round((x-xMin)/(self.xScale/self.xAccel), 0)), int(round((y-yMin)/(self.yScale/self.yAccel), 0))
+#old code
+
+#                if self.reverseX == False:
+#                    return int(round((x-xMin)/(self.xScale/self.xAccel), 0)), int(round((y-yMin)/(self.yScale/self.yAccel), 0))
+#                else:
+#                    return int(self.screenSize[0] - round((x-xMin)/(self.xScale/self.xAccel), 0)), int(round((y-yMin)/(self.yScale/self.yAccel), 0))
+
+#start new code:
+		if self.reverseX == False:
+			xReturn = round((x-xMin)/(self.xScale/self.xAccel), 0)
+		else:
+			xReturn = self.screenSize[0] - round((x-xMin)/(self.xScale/self.xAccel), 0)
+
+		if self.reverseY == False:
+			yReturn = round((y-yMin)/(self.yScale/self.yAccel), 0)
+		else:
+			yReturn = self.screenSize[1] - round((y-yMin)/(self.yScale/self.yAccel), 0)
+
+		return (int(xReturn), int(yReturn))
+#end new code
+
         else:
             uwarped = numpy.array([[x], [y], [1]])
             warped = numpy.dot(numpy.linalg.inv(self.calibHomo), uwarped)
             return (int(warped[0]/warped[2]), int(warped[1]/warped[2]))
 
     def frequencyDetect(self):
-#        print "dectecting"
+#        print "SerialReceiver.py - detecting"
         if self.freq_count >= self.pulseSensitivity:
             self.pulse_count = 0
             self.freq_count = 0
@@ -200,7 +227,7 @@ class SerialReceiver(threading.Thread):
                     b3 = bin(unpack("B", buff[i+2])[0])[2:]
                     found = True
             except:
-                print "~~~~~~Caught Exception~~~~~~"
+                print "SerialReceiver: ~~~~~~Caught Exception~~~~~~"
 #                print sys.exc_info()[0]
 #                sys.stderr.write('Tracking Error')
                 return
@@ -297,9 +324,9 @@ class SerialReceiver(threading.Thread):
         return numpy.array([element[0], element[1], 1])
 
     def run(self):
-        print "Mouse Control Active..."
+        print "SerialReceiver: Mouse Control Active..."
         while self.active == True:
             self.sRead()
 #            self.ser.flushInput()
 #            time.sleep(self.delay)
-        print "Mouse Control Stopped"
+        print "SerialReceiver: Mouse Control Stopped"
